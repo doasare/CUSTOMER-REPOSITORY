@@ -1,0 +1,4 @@
+com/rga/customer/Application.class
+com/rga/customer/Customer.class
+com/rga/customer/CustomerController.class
+com/rga/customer/CustomerRepository.class

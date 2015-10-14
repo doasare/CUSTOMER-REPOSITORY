@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.rga.customer.TestRunner" time="3.021" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Daniel/GitHub/RGA Customer Module"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="TestRunner"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Daniel/GitHub/RGA Customer Module"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/6h/s4q0xrz160961v2hg11kblh40000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.3/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Daniel/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Daniel"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Daniel"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.3/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=TestRunner test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="/Users/Daniel/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.3/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testListCustomer" classname="com.rga.customer.TestRunner" time="2.681">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; doesn&apos;t match actual status code &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <405> doesn't match actual status code <200>.
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:182)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:598)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:207)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:141)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)
+	at com.jayway.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+	at com.jayway.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)
+	at com.jayway.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+	at com.rga.customer.TestRunner.testListCustomer(TestRunner.java:48)
+]]></failure>
+    <system-out><![CDATA[test Listing
+13:24:14.309 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://localhost:8080
+13:24:14.332 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+13:24:14.364 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:24:14.367 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+13:24:14.367 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:24:14.368 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:24:14.369 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:24:14.369 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+13:24:14.370 [main] DEBUG org.apache.http.wire -  >> "GET / HTTP/1.1[\r][\n]"
+13:24:14.372 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:24:14.372 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+13:24:14.372 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8080[\r][\n]"
+13:24:14.373 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:24:14.373 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+13:24:14.373 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:24:14.373 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:24:14.374 [main] DEBUG org.apache.http.headers - >> GET / HTTP/1.1
+13:24:14.374 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:24:14.374 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+13:24:14.374 [main] DEBUG org.apache.http.headers - >> Host: localhost:8080
+13:24:14.374 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:24:14.375 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+13:24:14.375 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:24:14.379 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:24:14.381 [main] DEBUG org.apache.http.wire -  << "Server: Apache-Coyote/1.1[\r][\n]"
+13:24:14.382 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+13:24:14.382 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:24:14.382 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 03 Feb 2017 13:24:14 GMT[\r][\n]"
+13:24:14.382 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:14.383 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:24:14.383 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:24:14.383 [main] DEBUG org.apache.http.headers - << Server: Apache-Coyote/1.1
+13:24:14.384 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+13:24:14.384 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:24:14.384 [main] DEBUG org.apache.http.headers - << Date: Fri, 03 Feb 2017 13:24:14 GMT
+13:24:14.391 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:24:14.418 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+13:24:14.419 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:24:14.539 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://localhost:8080
+13:24:14.539 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+13:24:14.540 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:24:14.540 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+13:24:14.540 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:24:14.541 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:24:14.541 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:24:14.541 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: POST / HTTP/1.1
+13:24:14.541 [main] DEBUG org.apache.http.wire -  >> "POST / HTTP/1.1[\r][\n]"
+13:24:14.541 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+13:24:14.541 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8080[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:24:14.542 [main] DEBUG org.apache.http.headers - >> POST / HTTP/1.1
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Host: localhost:8080
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+13:24:14.543 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:24:14.547 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 405 Method Not Allowed[\r][\n]"
+13:24:14.548 [main] DEBUG org.apache.http.wire -  << "Server: Apache-Coyote/1.1[\r][\n]"
+13:24:14.549 [main] DEBUG org.apache.http.wire -  << "Allow: GET[\r][\n]"
+13:24:14.549 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+13:24:14.549 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:24:14.549 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 03 Feb 2017 13:24:14 GMT[\r][\n]"
+13:24:14.550 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:14.550 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 405 Method Not Allowed
+13:24:14.550 [main] DEBUG org.apache.http.headers - << HTTP/1.1 405 Method Not Allowed
+13:24:14.550 [main] DEBUG org.apache.http.headers - << Server: Apache-Coyote/1.1
+13:24:14.550 [main] DEBUG org.apache.http.headers - << Allow: GET
+13:24:14.550 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+13:24:14.550 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:24:14.551 [main] DEBUG org.apache.http.headers - << Date: Fri, 03 Feb 2017 13:24:14 GMT
+13:24:14.551 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:24:14.551 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+13:24:14.551 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:24:14.585 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://localhost:8080
+13:24:14.586 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+13:24:14.587 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:24:14.587 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+13:24:14.588 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:24:14.588 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:24:14.588 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:24:14.588 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: GET / HTTP/1.1
+13:24:14.589 [main] DEBUG org.apache.http.wire -  >> "GET / HTTP/1.1[\r][\n]"
+13:24:14.589 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:24:14.589 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+13:24:14.589 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8080[\r][\n]"
+13:24:14.590 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:24:14.590 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+13:24:14.590 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:24:14.590 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:24:14.591 [main] DEBUG org.apache.http.headers - >> GET / HTTP/1.1
+13:24:14.591 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:24:14.591 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+13:24:14.591 [main] DEBUG org.apache.http.headers - >> Host: localhost:8080
+13:24:14.592 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:24:14.592 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+13:24:14.592 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:24:14.595 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:24:14.595 [main] DEBUG org.apache.http.wire -  << "Server: Apache-Coyote/1.1[\r][\n]"
+13:24:14.596 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+13:24:14.597 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:24:14.597 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 03 Feb 2017 13:24:14 GMT[\r][\n]"
+13:24:14.598 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:14.598 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:24:14.598 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:24:14.598 [main] DEBUG org.apache.http.headers - << Server: Apache-Coyote/1.1
+13:24:14.598 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+13:24:14.599 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:24:14.599 [main] DEBUG org.apache.http.headers - << Date: Fri, 03 Feb 2017 13:24:14 GMT
+13:24:14.599 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:24:14.599 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+13:24:14.600 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+13:24:14.653 [main] DEBUG org.apache.http.wire -  << "1269[\r][\n]"
+13:24:14.654 [main] DEBUG org.apache.http.wire -  << "[{"id":4860492688963389024,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":8777736151952107936,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3486159462359367520,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1514416857840958304,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":5417784443407895136,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":2668671928022377312,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":108191068990955936,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":257785327808729184,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":5175855808739781792,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1503009900504558752,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6718393948704189856,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4740867502731951008,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":5563828240538598752,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4940405554822335072,"email":"jeiueh@ijeijk.com","phone":"0298390303","firstName":"frake","lastName":"juke"},{"id":2217413603405461920,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":8777539808853744224,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1440855789164773984,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6790930508854172512,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":8727478240045017184,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6227249032458693984,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3913109069170933344,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":2933794863745018464,"email":"jeiueh@ijeijk.com","phone":"0298390303","firstName":"frake","lastName":"juke"},{"id":3009798386998158752,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3371207854556487072,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6462256002782093920,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":5484356555973821856,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3821826940500818016,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4806118219477189984,"email":"jeiueh@ijeijk.com","phone":"0298390303","firstName":"frake","lastName":"juke"},{"id":6120393431112015264,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4603397821654792352,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4575720575805696608,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":2011446076348895584,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":4841531404666851744,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1516945062875733344,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6163895375380187296,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1528831372333901408,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":2007646752783113376,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":20594499106034016,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"},{"id":2788632286523794592,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":1424290135381954720,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3465899059537498720,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":8227091186069309088,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":6771298033516263072,"email":"R-Longly@hotmail.co.uk","phone":null,"firstName":"Robert","lastName":"Longly"},{"id":3393411307441158752,"email":null,"phone":null,"firstName":"Robert","lastName":"Longly"}]"
+13:24:14.661 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:14.661 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+13:24:14.664 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:14.664 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@30af5b6b
+13:24:14.664 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Connection can be kept alive indefinitely
+13:24:15.219 [Finalizer] DEBUG o.a.h.i.conn.DefaultClientConnection - Connection 0.0.0.0:64654<->127.0.0.1:8080 closed
+13:24:15.220 [Finalizer] DEBUG o.a.h.i.conn.DefaultClientConnection - Connection 0.0.0.0:64653<->127.0.0.1:8080 closed
+13:24:15.317 [main] DEBUG o.a.h.i.c.BasicClientConnectionManager - Get connection for route {}->http://localhost:8080
+13:24:15.318 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to localhost:8080
+13:24:15.319 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+13:24:15.319 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+13:24:15.320 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+13:24:15.320 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+13:24:15.320 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Attempt 1 to execute request
+13:24:15.320 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: GET /find/4860492688963389024 HTTP/1.1
+13:24:15.321 [main] DEBUG org.apache.http.wire -  >> "GET /find/4860492688963389024 HTTP/1.1[\r][\n]"
+13:24:15.321 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+13:24:15.321 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 0[\r][\n]"
+13:24:15.321 [main] DEBUG org.apache.http.wire -  >> "Host: localhost:8080[\r][\n]"
+13:24:15.322 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+13:24:15.322 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.3.6 (java 1.5)[\r][\n]"
+13:24:15.322 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+13:24:15.322 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> GET /find/4860492688963389024 HTTP/1.1
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> Accept: */*
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> Content-Length: 0
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> Host: localhost:8080
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.3.6 (java 1.5)
+13:24:15.322 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+13:24:15.329 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+13:24:15.330 [main] DEBUG org.apache.http.wire -  << "Server: Apache-Coyote/1.1[\r][\n]"
+13:24:15.330 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+13:24:15.330 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+13:24:15.330 [main] DEBUG org.apache.http.wire -  << "Date: Fri, 03 Feb 2017 13:24:14 GMT[\r][\n]"
+13:24:15.330 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+13:24:15.330 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+13:24:15.330 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+13:24:15.330 [main] DEBUG org.apache.http.headers - << Server: Apache-Coyote/1.1
+13:24:15.330 [main] DEBUG org.apache.http.headers - << Content-Type: application/json;charset=UTF-8
+13:24:15.331 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+13:24:15.331 [main] DEBUG org.apache.http.headers - << Date: Fri, 03 Feb 2017 13:24:14 GMT
+13:24:15.331 [main] DEBUG o.a.h.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+13:24:15.331 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsing response as: application/json;charset=UTF-8
+13:24:15.331 [main] DEBUG c.j.r.i.RequestSpecificationImpl$RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateCustomer" classname="com.rga.customer.TestRunner" time="0.107"/>
+  <testcase name="testCreateCustomer" classname="com.rga.customer.TestRunner" time="0.132"/>
+  <testcase name="testDeleteCustomer" classname="com.rga.customer.TestRunner" time="0.101"/>
+</testsuite>
